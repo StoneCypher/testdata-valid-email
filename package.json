@@ -1,0 +1,34 @@
+{
+  "author": "John Haugeland",
+  "name": "zareba",
+  "description": "Validation, testing, and penetration tools to ride with JsVerify",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/StoneCypher/zareba.git"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "validate",
+    "validation",
+    "penetration",
+    "stochastic",
+    "random",
+    "randomized",
+    "property",
+    "security"
+  ],
+  "dependencies": {
+    "jsverify": "*"
+  },
+  "devDependencies": {
+    "vows": "*"
+  },
+  "main": "zareba.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "vows test/* --spec"
+  }
+}
