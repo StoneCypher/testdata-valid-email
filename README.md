@@ -13,7 +13,7 @@ aware of.  The primary intent of this list is for use in automated testing.
 
 This list begins by consuming
 [this other excellent list](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php).
-The intent is to augment it with the larger TLD list soon.
+The intent is to augment it with the larger TLD list soon, as well as punycode equivalents.
 
 
 
