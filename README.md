@@ -18,6 +18,27 @@ The intent is to augment it with the larger TLD list soon, as well as punycode e
 
 
 
+
+So ... what is this?
+--------------------
+
+This is two things:
+
+1. A dataset of valid email addresses to be used by testing kits
+1. A place where, as the rules change and expand (yes they do,) things may be locally kept up to date
+  * Examples:
+    * Punycode
+    * IDNs
+    * Unicode characters in name extension
+    * New gTLDs
+    * New ccTLDs
+    * IPv6 rules
+    * Local routing domains
+
+
+
+
+
 Polemic :neckbeard:
 -------------------
 

@@ -9,7 +9,7 @@ var gulp     = require("gulp"),
 global.errorMessage = "";
 
 gulp.task("lint", linttask({
-  "targets" : "gulpfile.js testdata-invalid-email.js test/testdata-invalid-email-tests.js"
+  "targets" : "gulpfile.js testdata-valid-email.js test/testdata-valid-email-tests.js"
 }));
 
 gulp.task("default", ["lint"]);

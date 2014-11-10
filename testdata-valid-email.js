@@ -1,4 +1,7 @@
 
+/* jshint node: true */
+/* eslint-env node, browser */
+
 module.exports = [
 
     // let's start with the excellent list from
