@@ -14,7 +14,8 @@
     "email",
     "mail",
     "address",
-    "check"
+    "check",
+    "StoneCypher"
   ],
   "dependencies": {
     "sc-eslint": "*",
