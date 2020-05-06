@@ -19,7 +19,8 @@
   ],
   "dependencies": {
     "sc-eslint": "*",
-    "gulp-shell": "*"
+    "gulp-shell": "*",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "gulp": "*",
@@ -30,6 +31,9 @@
     "node": "*"
   },
   "scripts": {
-    "test": "vows test/* --spec"
-  }
+    "test": "vows test/* --spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
